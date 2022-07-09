@@ -1,4 +1,4 @@
-	package oskgunnlaugs;
+package oskgunnlaugs;
 
 import ng.appserver.NGActionResults;
 import ng.appserver.NGApplication;
@@ -10,9 +10,13 @@ public class Application extends NGApplication {
 	public static void main(String[] args) {
 		NGApplication.run(args, Application.class);
 	}
-	
+
 	public Application() {
-		_NGUtilities.addClass( Wrapper.class );
+		_NGUtilities.addClass(Wrapper.class);
+
+		routeTable().map("/cv", (request) -> {
+			return pageWithName(CVComponent.class, request.context());
+		});
 	}
 
 	@Override
