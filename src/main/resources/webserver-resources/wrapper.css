@@ -1,11 +1,11 @@
 @font-face {
-  font-family: ButlerStencil-UltraLight;
-  src: url=("ButlerStencil-UltraLight.woff2")
+  font-family: "ButlerStencil-UltraLight";
+  src: url(/wr/ButlerStencil-UltraLight.woff2)
 }
 
 @font-face {
-  font-family: Butler-UltraLight;
-  src: url=("Butler-UltraLight.woff2")
+  font-family: "Butler-UltraLight";
+  src: url(/wr/Butler-UltraLight.woff2)
 }
 
 html {
@@ -16,7 +16,6 @@ html {
 
 body {
 	background-color: none;
-	font-family: 'ButlerStencil-UltraLight';
 }
 
 h1 {
