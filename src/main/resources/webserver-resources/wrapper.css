@@ -8,15 +8,13 @@
   src: url(/wr/Butler-UltraLight.woff2)
 }
 
-html {
+body {
+	background-color: none;
+
 	font-family: 'Butler-UltraLight';
 	font-weight: 200;
     font-style: normal;
 }	
-
-body {
-	background-color: none;
-}
 
 h1 {
 	font-family: 'ButlerStencil-UltraLight';
