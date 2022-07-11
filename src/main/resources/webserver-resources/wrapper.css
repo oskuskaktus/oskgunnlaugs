@@ -18,4 +18,36 @@ body {
 
 h1 {
 	font-family: 'ButlerStencil-UltraLight';
+	margin-bottom: -1rem;
 }
+
+p2 {
+	margin: -1rem 0 0 1rem;
+	}
+
+p3 {
+	margin: 1rem 0;
+	text-align: center;
+	}	
+	
+	a:link {
+  	text-decoration: none;
+	color: black;
+}
+
+a:visited {
+  	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+  	text-decoration: none;
+  	color: #adb5bd;
+}
+
+a:active {
+  	text-decoration: none;
+	color: black;
+}
+	
+.nav	
