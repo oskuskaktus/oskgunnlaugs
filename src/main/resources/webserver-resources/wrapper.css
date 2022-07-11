@@ -42,7 +42,7 @@ a:visited {
 
 a:hover {
   	text-decoration: none;
-  	color: #adb5bd;
+  	color: #adb5bd !important;
 }
 
 a:active {
